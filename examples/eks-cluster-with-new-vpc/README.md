@@ -28,7 +28,7 @@ You can find the policy [here](min-iam-policy.json)
 #### Step 1: Clone the repo using the command below
 
 ```sh
-git clone https://github.com/aws-ia/terraform-aws-eks-blueprints.git
+git clone https://github.com/coingaming/terraform-aws-eks-blueprints.git
 ```
 
 #### Step 2: Run Terraform INIT
