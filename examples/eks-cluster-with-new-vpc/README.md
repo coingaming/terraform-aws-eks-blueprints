@@ -87,11 +87,5 @@ Destroy the Kubernetes Add-ons, EKS cluster with Node groups and VPC
 ```sh
 terraform destroy -target="module.eks_blueprints_kubernetes_addons" -auto-approve
 terraform destroy -target="module.eks_blueprints" -auto-approve
-terraform destroy -target="module.vpc" -auto-approve
-```
-
-Finally, destroy any additional resources that are not in the above modules
-
-```sh
 terraform destroy -auto-approve
 ```
